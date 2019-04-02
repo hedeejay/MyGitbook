@@ -1,0 +1,34 @@
+{
+	"title" : "第一本Gitbook",
+	"language" : "zh-hans",
+	"author" : "hedj",
+	"description" : "记录Gitbook的配置和一些插件的使用",
+	"links" : {
+		"sidebar" : {
+			"微服务平台" : "http://10.114.72.123:8000"
+		}
+	},
+	"plugins": [
+		"splitter",
+		"expandable-chapters",
+		"back-to-top-button",
+		"-sharing",
+		"pageview-count",
+		"-lunr","-search","search-pro",
+		"prism", "-highlight",
+		"insert-logo",
+		"copy-code-button",
+		"header"
+	],
+	"pluginsConfig": {
+        "expandable-chapters":{},
+		"insert-logo":{
+			"url": "/imgs/top_logo2.png",
+			"style": "background-color: #1199c4; max-height: 30px; min-height: 30px"
+		},
+		"layout": {
+			"headerPath" : "layouts/header.html"
+		}
+    }
+	
+}
